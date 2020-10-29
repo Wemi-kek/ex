@@ -1,0 +1,5 @@
+language: cpp
+compiler: gcc
+script:
+- g++ main.cpp -std=c++17 - travis_gcc_cpp17_cppcheck
+- ./tavis_gcc_cpp17_cppcheck
