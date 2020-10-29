@@ -1,5 +1,9 @@
-language: cpp
-compiler: gcc
-script:
-- g++ main.cpp -std=c++17 - travis_gcc_cpp17_ex
-- ./tavis_gcc_cpp17_ex
+language: cpp 
+
+compiler: gcc 
+
+script: 
+
+- g++ main.cpp -o travis_gcc_cpp98 
+
+- ./travis_gcc_cpp98
